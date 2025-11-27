@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+input[type=radio] {
+accent-color: blue;
+width: 22px;
+height: 22px;
+cursor: pointer;
+transition: transform 0.2s
+ease, box-shadow 0.3s ease;
+/* smooth animation */
+}
+input[type=radio]:hover {
+transform: scale(1.15);
+box-shadow: 0 0 6px
+rgba(0, 0, 0, 0.6);
+}
+input[type=radio]:active {
+transform: scale(0.8);
+}
+label {
+font-size: 18px;
+margin-left: 6px;
+color: brown;
+}
+</style>
+</head>
+<!-- CSS Styling-Radiobuttons -->
+<body>
+<h2>Animated Radio Button
+Styling</h2>
+<form>
+<label><input type="radio"
+name="gender"
+value="male">
+Male</label><br>
+<label><input type="radio"
+name="gender"
+value="female">
+Female</label><br>
+</form>
+</body>
+</html>
